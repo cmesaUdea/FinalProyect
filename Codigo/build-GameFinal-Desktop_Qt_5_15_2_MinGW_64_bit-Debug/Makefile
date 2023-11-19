@@ -248,6 +248,7 @@ Makefile: ../GameFinal/GameFinal.pro ../../../../QT/5.15.2/mingw81_64/mkspecs/wi
 		../../../../QT/5.15.2/mingw81_64/mkspecs/features/qt_config.prf \
 		../../../../QT/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf \
 		../../../../QT/5.15.2/mingw81_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../../QT/5.15.2/mingw81_64/mkspecs/features/exclusive_builds.prf \
 		../../../../QT/5.15.2/mingw81_64/mkspecs/features/toolchain.prf \
 		../../../../QT/5.15.2/mingw81_64/mkspecs/features/default_pre.prf \
@@ -276,7 +277,6 @@ Makefile: ../GameFinal/GameFinal.pro ../../../../QT/5.15.2/mingw81_64/mkspecs/wi
 		../../../../QT/5.15.2/mingw81_64/lib/Qt5Gui.prl \
 		../../../../QT/5.15.2/mingw81_64/lib/Qt5Core.prl \
 		../../../../QT/5.15.2/mingw81_64/lib/qtmain.prl \
-		.qmake.stash \
 		../../../../QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\GameFinal\GameFinal.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 ../../../../QT/5.15.2/mingw81_64/mkspecs/features/spec_pre.prf:
@@ -457,6 +457,7 @@ Makefile: ../GameFinal/GameFinal.pro ../../../../QT/5.15.2/mingw81_64/mkspecs/wi
 ../../../../QT/5.15.2/mingw81_64/mkspecs/features/qt_config.prf:
 ../../../../QT/5.15.2/mingw81_64/mkspecs/win32-g++/qmake.conf:
 ../../../../QT/5.15.2/mingw81_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../../QT/5.15.2/mingw81_64/mkspecs/features/exclusive_builds.prf:
 ../../../../QT/5.15.2/mingw81_64/mkspecs/features/toolchain.prf:
 ../../../../QT/5.15.2/mingw81_64/mkspecs/features/default_pre.prf:
@@ -485,7 +486,6 @@ Makefile: ../GameFinal/GameFinal.pro ../../../../QT/5.15.2/mingw81_64/mkspecs/wi
 ../../../../QT/5.15.2/mingw81_64/lib/Qt5Gui.prl:
 ../../../../QT/5.15.2/mingw81_64/lib/Qt5Core.prl:
 ../../../../QT/5.15.2/mingw81_64/lib/qtmain.prl:
-.qmake.stash:
 ../../../../QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\GameFinal\GameFinal.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
