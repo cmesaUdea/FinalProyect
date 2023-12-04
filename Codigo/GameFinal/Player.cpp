@@ -1,4 +1,4 @@
-#include "MyRect.h"
+#include "Player.h"
 #include <QKeyEvent>
 
 void MyRect::keyPressEvent(QKeyEvent *event){
