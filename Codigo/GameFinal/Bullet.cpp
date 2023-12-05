@@ -12,8 +12,6 @@ extern Game * game; //Objeto global, de tipo puntero
 //MiClase::MiClase(QObject *parent) : QObject(parent)
 Bullet::Bullet(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent) //Constructor y herencia
 {
-    //dibuja el la bala
-    //setRect(0, 0, 10, 50);
     setPixmap(QPixmap(":/images/bala.png"));
 
     //Conect con el slot de la bala
@@ -46,7 +44,6 @@ void Bullet::move()
     if(pos().y()  < 0){
         scene()->removeItem(this);
         delete this;
-        //qDebug() <<"Bullet deleted";
     }
 }
 
