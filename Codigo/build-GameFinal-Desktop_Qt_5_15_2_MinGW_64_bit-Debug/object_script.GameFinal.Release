@@ -9,4 +9,5 @@ release/main.o
 release/qrc_res.o
 release/moc_Bullet.o
 release/moc_Enemy.o
+release/moc_Newenemy.o
 release/moc_Player.o

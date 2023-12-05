@@ -9,4 +9,5 @@ debug/main.o
 debug/qrc_res.o
 debug/moc_Bullet.o
 debug/moc_Enemy.o
+debug/moc_Newenemy.o
 debug/moc_Player.o

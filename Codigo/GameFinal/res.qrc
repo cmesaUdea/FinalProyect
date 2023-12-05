@@ -1,14 +1,15 @@
 <RCC>
-    <qresource prefix="/sound">
+    <qresource prefix="/sounds">
         <file>disparo.mp3</file>
         <file>loserMusic.mp3</file>
         <file>Rikoso.mp3</file>
     </qresource>
-    <qresource prefix="/img">
+    <qresource prefix="/images">
         <file>alien.png</file>
         <file>bala.png</file>
         <file>bg.png</file>
         <file>bg3.jpg</file>
         <file>bomba.png</file>
+        <file>Rick.png</file>
     </qresource>
 </RCC>

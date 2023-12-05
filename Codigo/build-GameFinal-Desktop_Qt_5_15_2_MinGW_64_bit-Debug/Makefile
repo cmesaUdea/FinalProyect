@@ -273,8 +273,10 @@ Makefile: ../GameFinal/GameFinal.pro ../../../../QT/5.15.2/mingw81_64/mkspecs/wi
 		../../../../QT/5.15.2/mingw81_64/mkspecs/features/yacc.prf \
 		../../../../QT/5.15.2/mingw81_64/mkspecs/features/lex.prf \
 		../GameFinal/GameFinal.pro \
+		../../../../QT/5.15.2/mingw81_64/lib/Qt5Multimedia.prl \
 		../../../../QT/5.15.2/mingw81_64/lib/Qt5Widgets.prl \
 		../../../../QT/5.15.2/mingw81_64/lib/Qt5Gui.prl \
+		../../../../QT/5.15.2/mingw81_64/lib/Qt5Network.prl \
 		../../../../QT/5.15.2/mingw81_64/lib/Qt5Core.prl \
 		../../../../QT/5.15.2/mingw81_64/lib/qtmain.prl \
 		../../../../QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf \
@@ -483,8 +485,10 @@ Makefile: ../GameFinal/GameFinal.pro ../../../../QT/5.15.2/mingw81_64/mkspecs/wi
 ../../../../QT/5.15.2/mingw81_64/mkspecs/features/yacc.prf:
 ../../../../QT/5.15.2/mingw81_64/mkspecs/features/lex.prf:
 ../GameFinal/GameFinal.pro:
+../../../../QT/5.15.2/mingw81_64/lib/Qt5Multimedia.prl:
 ../../../../QT/5.15.2/mingw81_64/lib/Qt5Widgets.prl:
 ../../../../QT/5.15.2/mingw81_64/lib/Qt5Gui.prl:
+../../../../QT/5.15.2/mingw81_64/lib/Qt5Network.prl:
 ../../../../QT/5.15.2/mingw81_64/lib/Qt5Core.prl:
 ../../../../QT/5.15.2/mingw81_64/lib/qtmain.prl:
 ../../../../QT/5.15.2/mingw81_64/mkspecs/features/build_pass.prf:
