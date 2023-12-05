@@ -2,17 +2,14 @@
 #include <QTimer>
 #include <QGraphicsScene>
 #include <QList>
-#include <stdlib.h> // rand() -> really large int
+#include <stdlib.h> 
 #include "Game.h"
 #include <cmath>
 
 extern Game * game;
 
-//MiClase::MiClase(QObject *parent) : QObject(parent)
 Enemy::Enemy(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent) //Constructor y herencia
 {
-
-
     //Creará un entero aleatorio
     int random_number = rand() % 700; //700 porque no quiero que se cree por fuera de la pantall
     setPos(random_number, 0);
@@ -30,7 +27,6 @@ Enemy::Enemy(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent) //Co
 
 void Enemy::move()
 {
-    // Ajusta la velocidad y la gravedad según tus necesidades
     qreal gravity = 0.2; // Gravedad
     qreal initialVelocity = 0.0; // Velocidad inicial en el eje Y
 
@@ -40,8 +36,6 @@ void Enemy::move()
     // Actualiza la posición en el eje Y según la velocidad
     setPos(x(), y() + velocityY);
 
-    // Si deseas eliminar el enemigo cuando alcance cierta posición en Y,
-    // puedes agregar esa lógica aquí
     if(pos().y() > 400){
 
         //Disminuir la vida
@@ -51,8 +45,6 @@ void Enemy::move()
         delete this;
 
     }
-
-
 }
 
 void Enemy::setSpeed(int newSpeed)
