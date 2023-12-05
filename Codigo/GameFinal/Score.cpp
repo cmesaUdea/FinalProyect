@@ -6,7 +6,7 @@ Score::Score(QGraphicsItem *parent): QGraphicsTextItem(parent){
     score = 0;
 
     // Texto sin formato
-    setPlainText(QString("Score: ") + QString::number(score)); // Score: 0
+    setPlainText(QString("Score : ") + QString::number(score)); // Score: 0
     setDefaultTextColor(Qt::blue); //Color
     setFont(QFont("times",12)); //Tipo y tamaño
 }
@@ -23,5 +23,5 @@ int Score::getScore(){
 
 void Score::resetScore() {
     score = 0;
-    setPlainText(QString("Score: ") + QString::number(score)); // Actualiza el texto mostrado con la puntuación reiniciada
+    setPlainText(QString("Score : ") + QString::number(score)); // Actualiza el texto mostrado con la puntuación reiniciada
 }
